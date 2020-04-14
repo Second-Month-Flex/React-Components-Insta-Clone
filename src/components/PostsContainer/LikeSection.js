@@ -8,7 +8,7 @@ import setLike from "./Post";
 
 const LikeSection = (props) => {
   // console.log(props.props);
-  const [likes, setLikes] = useState(0);
+  const [likes, setLikes] = useState(props.likes);
 
   return (
     <div>

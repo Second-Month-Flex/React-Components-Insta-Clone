@@ -13,7 +13,7 @@ import SearchBar from "./components/SearchBar/SearchBarContainer";
 const App = () => {
   return (
     <div className="App">
-      {/* <SearchBar /> */}
+      <SearchBar />
       <PostsPage />
     </div>
   );
